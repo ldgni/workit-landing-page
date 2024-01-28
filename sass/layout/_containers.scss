@@ -1,0 +1,21 @@
+@use "../utils/" as *;
+
+.container {
+  padding-inline: 1rem;
+  max-width: 70rem;
+  margin-inline: auto;
+}
+
+.cta-container {
+  padding-inline: 1rem;
+  max-width: 23rem;
+  margin-inline: auto;
+  @include md-size {
+    padding-inline: 1rem;
+    max-width: 45rem;
+    margin-inline: auto;
+  }
+  @include lg-size {
+    max-width: 70rem;
+  }
+}

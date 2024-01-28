@@ -1,0 +1,96 @@
+@use "../utils/" as *;
+
+.header {
+  position: relative;
+  background-color: $color-primary;
+  padding-top: 2.31rem;
+  padding-bottom: 1.79rem;
+  &::after {
+    @extend %wave;
+    background: $color-primary;
+  }
+  @include md-size {
+    background-image: url("./assets/images/bg-pattern-1.svg"),
+      url("./assets/images/bg-pattern-2.svg");
+    background-repeat: no-repeat;
+    background-position: calc(0vw - 14.3rem) 5rem, calc(100vw - 5rem) 16rem;
+    padding-bottom: 5.3rem;
+  }
+  @include lg-size {
+    background-position: calc(0vw - 9rem) 8rem, calc(100vw - 7.5rem) 22rem;
+    padding-top: 3.61rem;
+    padding-bottom: 13.26rem;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4.27rem;
+    @include md-size {
+      margin-bottom: 3.77rem;
+    }
+    @include lg-size {
+      margin-bottom: 3.98rem;
+    }
+    &__apply {
+      @extend %underline;
+      color: #fff;
+      font-weight: 700;
+      line-height: 2rem;
+      transition: color 0.2s ease-in-out;
+      &:is(:hover, :focus, :active) {
+        color: $color-secondary;
+      }
+    }
+  }
+  &__hero {
+    text-align: center;
+    &__title {
+      color: #fff;
+      font-family: $font-family-secondary;
+      font-size: 3.125rem;
+      font-weight: 600;
+      line-height: 3.125rem;
+      max-width: 23rem;
+      margin-inline: auto;
+      margin-bottom: 2.5rem;
+      @include md-size {
+        font-size: 3.75rem;
+        line-height: 3.75rem;
+        max-width: 35rem;
+        margin-bottom: 2.44rem;
+      }
+      @include lg-size {
+        font-size: 5rem;
+        line-height: 5rem;
+        margin-bottom: 2.31rem;
+      }
+    }
+    &__button {
+      margin-bottom: 4rem;
+      @include md-size {
+        margin-bottom: 3.44rem;
+      }
+      @include lg-size {
+        margin-bottom: 3.13rem;
+      }
+    }
+    &__image {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      max-width: 300px;
+      @include md-size {
+        max-width: 480px;
+      }
+      @include lg-size {
+        max-width: 715px;
+      }
+    }
+  }
+}
+
+.hero__underline {
+  @extend %underline;
+}

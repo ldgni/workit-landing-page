@@ -1,0 +1,14 @@
+@use "../utils/" as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $color-tertiary;
+  color: $color-primary;
+  font-family: $font-family-primary;
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+}
