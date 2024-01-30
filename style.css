@@ -364,7 +364,7 @@ body {
     right: 15px;
   }
 }
-@media (min-width: 48rem) and (min-width: 70rem) {
+@media (min-width: 70rem) {
   .main__cta .cta__box {
     padding: 4rem;
     max-width: 45rem;
@@ -421,14 +421,13 @@ body {
   align-items: center;
   gap: 1.5rem;
 }
-.footer__social li a {
+.footer__social .social__link {
   display: flex;
-}
-.footer__social .social__icon path {
+  color: #584d62;
   transition: fill 0.2s ease-in-out;
 }
-.footer__social .social__icon path:hover {
-  fill: #24053e;
+.footer__social .social__link:is(:hover, :focus) {
+  color: #24053e;
 }
 
 .btn {

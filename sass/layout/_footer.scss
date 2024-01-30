@@ -3,27 +3,25 @@
 .footer {
   background-color: #fff;
   padding-bottom: 4rem;
+
   &__logo {
     margin-inline: auto;
     margin-bottom: 3rem;
   }
+
   &__social {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
 
-    & li a {
+    .social__link {
       display: flex;
-    }
-
-    & .social__icon path {
+      color: #584d62;
       transition: fill 0.2s ease-in-out;
-      &:hover {
-        fill: $color-primary;
+      &:is(:hover, :focus) {
+        color: $color-primary;
       }
     }
   }
 }
-
-// TODO: Optimize the hover on the social icons

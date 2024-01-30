@@ -34,7 +34,7 @@
       margin-bottom: 3.98rem;
     }
 
-    & .nav__apply {
+    .nav__apply {
       @extend %underline;
       color: #fff;
       font-weight: 700;
@@ -49,7 +49,7 @@
   &__hero {
     text-align: center;
 
-    & .hero__title {
+    .hero__title {
       color: #fff;
       font-family: $font-family-secondary;
       font-size: 3.125rem;
@@ -70,12 +70,12 @@
         margin-bottom: 2.31rem;
       }
 
-      & .title__underline {
+      .title__underline {
         @extend %underline;
       }
     }
 
-    & .hero__button {
+    .hero__button {
       margin-bottom: 4rem;
       @include md-size {
         margin-bottom: 3.44rem;
@@ -85,7 +85,7 @@
       }
     }
 
-    & .hero__image {
+    .hero__image {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
