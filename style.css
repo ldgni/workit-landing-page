@@ -87,14 +87,12 @@ body {
 }
 @media (min-width: 48rem) {
   .container-cta {
-    padding-inline: 1rem;
     max-width: 45rem;
-    margin-inline: auto;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .container-cta {
-    max-width: 70rem;
+    max-width: 71rem;
   }
 }
 
@@ -115,7 +113,7 @@ body {
     padding-bottom: 5.3rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .header {
     background-position: calc(0vw - 9rem) 8rem, calc(100vw - 7.5rem) 22rem;
     padding-top: 3.61rem;
@@ -133,7 +131,7 @@ body {
     margin-bottom: 3.77rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .header__nav {
     margin-bottom: 3.98rem;
   }
@@ -168,7 +166,7 @@ body {
     margin-bottom: 2.44rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .header__hero .hero__title {
     font-size: 5rem;
     line-height: 5rem;
@@ -183,7 +181,7 @@ body {
     margin-bottom: 3.44rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .header__hero .hero__button {
     margin-bottom: 3.13rem;
   }
@@ -200,7 +198,7 @@ body {
     max-width: 480px;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .header__hero .hero__image {
     max-width: 715px;
   }
@@ -225,7 +223,7 @@ body {
     padding-bottom: 2.48rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__features {
     text-align: center;
     padding-top: 19.94rem;
@@ -242,7 +240,7 @@ body {
     gap: 3rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__features .features__list {
     flex-direction: row;
     justify-content: space-between;
@@ -260,7 +258,7 @@ body {
     gap: 2rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__features .features__list li {
     flex-direction: column;
     gap: 3.5rem;
@@ -276,7 +274,7 @@ body {
   border-radius: 1.90625rem;
   padding: 0.31rem 1rem;
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__features .features__list li .list__nb {
     font-size: 1.5rem;
     line-height: 2.5rem;
@@ -288,7 +286,7 @@ body {
   flex-direction: column;
   gap: 1rem;
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__features .features__list li .list-content {
     gap: 1.75rem;
   }
@@ -299,7 +297,7 @@ body {
   font-weight: 600;
   line-height: 2.25rem;
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__features .features__list li .list-content__title {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -319,7 +317,7 @@ body {
     padding-bottom: 5rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__cta {
     padding-top: 10.87rem;
     padding-bottom: 7.61rem;
@@ -334,7 +332,7 @@ body {
     margin-inline: 0;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__cta .cta__portrait {
     max-width: 477px;
   }
@@ -364,7 +362,7 @@ body {
     right: 15px;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__cta .cta__box {
     padding: 4rem;
     max-width: 45rem;
@@ -388,7 +386,7 @@ body {
     margin-bottom: 1.5rem;
   }
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__cta .cta__box .box__title {
     font-size: 3.5rem;
     line-height: 4rem;
@@ -399,7 +397,7 @@ body {
   line-height: 1.75rem;
   margin-bottom: 1.5rem;
 }
-@media (min-width: 70rem) {
+@media (min-width: 90rem) {
   .main__cta .cta__box .box__text {
     font-size: 1.125rem;
     line-height: 2rem;

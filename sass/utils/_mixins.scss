@@ -5,7 +5,7 @@
 }
 
 @mixin lg-size {
-  @media (min-width: 70rem) {
+  @media (min-width: 90rem) {
     @content;
   }
 }
