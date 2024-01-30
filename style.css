@@ -424,7 +424,7 @@ body {
 .footer__social .social__link {
   display: flex;
   color: #584d62;
-  transition: fill 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .footer__social .social__link:is(:hover, :focus) {
   color: #24053e;

@@ -18,7 +18,7 @@
     .social__link {
       display: flex;
       color: #584d62;
-      transition: fill 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out;
       &:is(:hover, :focus) {
         color: $color-primary;
       }
